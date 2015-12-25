@@ -16,7 +16,7 @@ markdown:           rdiscount
 # Navigation
 nav:
   - name:           "About"
-    href:           "#"
+    href:           "about"
   - name:           "Resume"
     href:           "#"
 
