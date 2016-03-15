@@ -12,13 +12,12 @@ permalink:          /:year/:month/:day/:title.html
 
 # Navigation
 nav:
-  - name:           "About"
-    href:           "about"
   - name:           "Resume"
     href:           "Resume.pdf"
   - name:           "Github"
     href:           "https://github.com/seanhelm"    
-
+  - name:           "Linkedin"
+    href:           "https://www.linkedin.com/in/sean-helm-871101a2"
 # Sass
 sass:
   style:            :compressed
