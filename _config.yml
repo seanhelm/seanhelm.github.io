@@ -15,7 +15,7 @@ nav:
   - name:           "About"
     href:           "about"
   - name:           "Resume"
-    href:           "#"
+    href:           "Resume.pdf"
   - name:           "Github"
     href:           "https://github.com/seanhelm"    
 
