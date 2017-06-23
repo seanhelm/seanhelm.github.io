@@ -1,32 +1,49 @@
----
-layout: default
----
-<header class="masthead">
-  <h1 class="masthead-title">
-    <a href="{{ site.baseurl }}/">{{ site.name }}</a>
-  </h1>
-  <nav class="masthead-nav">
-    {% for nav in site.nav %}
-    <a href="{{ nav.href }}">{{ nav.name }}</a>
-    {% endfor %}
-  </nav>
-  </header>
-<div class="content page">
-{% include head.html %}
-</div>
-<!--<div class="content list">
-{% if site.posts.size == 0 %}
-  <h2>No post found</h2>
-{% else %}
-{% for post in site.posts %}
-  <div class="list-item">
-    <h2 class="list-post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
-    <div class="list-post-date">
-      <time>{{ post.date | date_to_string }}</time>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sean Helm</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom -->
+    <link href="css/theme.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <div id="nav">
+            <h1>Sean Helm</h1>
+            <ul class="list-inline">
+                <li><a href="Resume.pdf">resume</a></li>
+                <li><a href="https://github.com/seanhelm">github</a></li>
+                <li><a href="https://www.linkedin.com/in/sean-helm-871101a2">linkedin</a></li>
+            </ul>
+        </div>
+
+        <h3>About me</h3>
+        <p>
+            I am an undergraduate student pursuing a Bachelor of Science degree in Computer Science at George Mason University. I am currently a Software Engineering Intern at <a href="http://www.alarm.com">Alarm.com</a>!
+        </p>
+        <p>
+            I have experience with back-end web and desktop application development. I am also interested in the application of advanced technologies including data science, machine learning, and big data.
+        </p>
     </div>
-  </div>
-{% endfor %}
-{% endif %}
-</div>-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
