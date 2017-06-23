@@ -3,6 +3,7 @@ body {
     font-size: 18px;
     font-family: 'Open', sans-serif;
     font-weight: 300;
+    color: #333;
 }
 
 h1 {
@@ -15,6 +16,7 @@ h2, h3 {
 
 h1, h2, h3 {
     font-family: 'Merriweather', serif;
+    color: #222;
 }
 
 p {
@@ -26,7 +28,7 @@ p {
 }
 
 #nav ul a, #nav ul a:visited {
-    color: #888;
+    color: #777;
 }
 
 #nav ul a:hover, #nav ul a:active {
