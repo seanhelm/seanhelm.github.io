@@ -1,0 +1,41 @@
+body {
+    line-height: 2;
+    font-size: 18px;
+    font-family: 'Open', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2, h3 {
+    padding-bottom: 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+#nav {
+    padding-bottom: 15px;
+}
+
+#nav ul a, #nav ul a:visited {
+    color: #888;
+}
+
+#nav ul a:hover, #nav ul a:active {
+    text-decoration: none;
+    color: #333;
+}
+
+@media (min-width:768px) {
+    .container {
+        margin-top: 100px;
+    }
+}
