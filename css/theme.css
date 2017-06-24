@@ -12,16 +12,17 @@ h1 {
 }
 
 h3 {
+    padding-top: 9px;
     padding-bottom: 10px;
     font-weight: 400;
 }
 
 p {
-    padding-bottom: 15px;
+    padding-bottom: 6px;
 }
 
 #nav {
-    padding-bottom: 15px;
+    padding-bottom: 7px;
 }
 
 #nav ul a, #nav ul a:visited {
