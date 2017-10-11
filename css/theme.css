@@ -1,14 +1,9 @@
 body {
-    line-height: 1.9;
     font-size:  19px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
     color: #333;
-}
-
-a, a:visited, a:hover, a:active {
-    color: #AD5D5D;
-    font-weight: 400;
+    line-height: 1.9;
 }
 
 h1 {
@@ -17,12 +12,14 @@ h1 {
 }
 
 h3 {
+    font-size: 28px;
+    font-weight: 400;
     padding-top: 9px;
     padding-bottom: 10px;
-    font-weight: 400;
 }
 
-a.link {
+a, a:visited, a:hover, a:active {
+    color: #AD5D5D;
     font-weight: 400;
 }
 
