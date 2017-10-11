@@ -17,6 +17,10 @@ h3 {
     font-weight: 400;
 }
 
+b {
+    font-weight: 300;
+}
+
 p {
     padding-bottom: 6px;
 }
