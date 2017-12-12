@@ -6,6 +6,10 @@ body {
     line-height: 1.9;
 }
 
+h1, h3 {
+    color: #3b4859;
+}
+
 h1 {
     font-size: 45px;
     font-weight: 400;
@@ -19,7 +23,7 @@ h3 {
 }
 
 a, a:visited, a:hover, a:active {
-    color: #444;
+    color: #3b4859;
     font-weight: 400;
 }
 
