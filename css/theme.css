@@ -1,43 +1,42 @@
 body {
     font-size:  19px;
+    font-weight: 300;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 200;
     color: #333;
-    line-height: 1.9;
 }
 
+/* Headers */
 h1, h3 {
-    color: #333;
+    font-weight: 400;
 }
 
 h1 {
     font-size: 45px;
-    font-weight: 400;
 }
 
 h3 {
-    font-size: 28px;
-    font-weight: 400;
-    padding-top: 9px;
-    padding-bottom: 10px;
+    font-size: 24px;
+    color: #CD5C5C;
+    
+    padding-top: 20px;
 }
 
+/* Links */
 a, a:visited, a:hover, a:active {
     color: #CD5C5C;
-    font-weight: 400;
 }
 
+/* Paragraphs */
 p {
-    padding-bottom: 6px;
+    line-height: 1.7;
+
+    padding-top: 6px;
 }
 
-#nav {
-    padding-bottom: 7px;
-}
-
+/* Nagivation */
 #nav ul a, #nav ul a:visited {
+    font-weight: 300;
     color: #888;
-    font-weight: 200;
 }
 
 #nav ul a:hover, #nav ul a:active {
@@ -45,6 +44,7 @@ p {
     color: #222;
 }
 
+/* Bootstrap */
 @media (min-width:768px) {
     .container {
         margin-top: 100px;
