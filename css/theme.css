@@ -47,6 +47,6 @@ p {
 /* Bootstrap */
 @media (min-width:768px) {
     .container {
-        margin-top: 100px;
+        margin-top: 80px;
     }
 }
