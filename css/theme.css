@@ -7,17 +7,19 @@ body {
 /* Headers */
 h1 {
     font-size: 45px;
-    padding-bottom: 4px;
+    padding-bottom: 6px;
 }
 
 h3 {
     font-size: 28px;
     border-bottom: 1px solid #eee;
-    padding-top: 20px;
-    padding-bottom: 4px;
+    padding-top: 18px;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
 }
 
-h4 {
+.project {
+    display: block;
     font-size: 21px;
     padding-bottom: 6px;
 }
@@ -30,16 +32,16 @@ a, a:visited, a:hover, a:active {
 /* Paragraphs */
 p {
     line-height: 1.5;
-    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 /* Nagivation */
 #nav {
-    padding-bottom: 4px;
+    padding-bottom: 12px;
 }
 
 #nav li {
-   padding-right: 15px;
+   padding-right: 18px;
 }
 
 #nav ul a, #nav ul a:visited {
