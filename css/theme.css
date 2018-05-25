@@ -55,6 +55,6 @@ p {
 /* Bootstrap */
 @media (min-width:768px) {
     .container {
-        margin-top: 40px;
+        margin-top: 30px;
     }
 }
