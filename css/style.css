@@ -160,7 +160,23 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background: #111;
+  background: rgb(41, 43, 60);
+  background: -moz-linear-gradient(
+    343deg,
+    rgba(41, 43, 60, 1) 39%,
+    rgba(81, 85, 121, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    343deg,
+    rgba(41, 43, 60, 1) 39%,
+    rgba(81, 85, 121, 1) 100%
+  );
+  background: linear-gradient(
+    343deg,
+    rgba(41, 43, 60, 1) 39%,
+    rgba(81, 85, 121, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#292b3c",endColorstr="#515579",GradientType=1);
 }
 
 html {
@@ -181,7 +197,6 @@ canvas {
 #particles-js {
   width: 100%;
   height: 100%;
-  background-color: #292b3c;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -191,7 +206,7 @@ canvas {
 
 #container {
   position: absolute;
-  top: 50%;
+  top: 49%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 95%;
