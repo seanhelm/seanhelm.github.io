@@ -163,18 +163,18 @@ body {
   background: rgb(41, 43, 60);
   background: -moz-linear-gradient(
     343deg,
-    rgba(41, 43, 60, 1) 39%,
-    rgba(81, 85, 121, 1) 100%
+    rgba(41, 43, 60, 1) 55%,
+    rgba(87, 90, 126, 1) 100%
   );
   background: -webkit-linear-gradient(
     343deg,
-    rgba(41, 43, 60, 1) 39%,
-    rgba(81, 85, 121, 1) 100%
+    rgba(41, 43, 60, 1) 55%,
+    rgba(87, 90, 126, 1) 100%
   );
   background: linear-gradient(
     343deg,
-    rgba(41, 43, 60, 1) 39%,
-    rgba(81, 85, 121, 1) 100%
+    rgba(41, 43, 60, 1) 55%,
+    rgba(87, 90, 126, 1) 100%
   );
 }
 
